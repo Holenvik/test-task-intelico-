@@ -1,0 +1,19 @@
+.btnWhite {
+  color: #78909c;
+  background-color: #fff;
+  border: 1px solid #78909c;
+}
+
+.btnGray {
+  color: #fff;
+  background-color: #78909c;
+  border: none;
+}
+
+.btnGray,
+.btnWhite {
+  padding: 5px;
+  height: 40px;
+  width: 60px;
+  border-radius: 5px;
+}

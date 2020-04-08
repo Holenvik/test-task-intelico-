@@ -1,0 +1,48 @@
+.selectWrapper {
+  display: flex;
+  position: relative;
+}
+
+.selectedOptionImg {
+  border-radius: 50%;
+  height: 25px;
+  margin-right: 5px;
+}
+
+.searchInput {
+  width: 100%;
+}
+
+.dropdownWrapper {
+  position: absolute;
+  padding: 10px;
+  top: 50px;
+  background-color: #fff;
+  width: 120px;
+  max-height: 400px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  z-index: 10;
+}
+
+.dropdownButton {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  height: 40px;
+  width: 140px;
+  border-radius: 5px;
+  border: none;
+}
+
+.option {
+  display: flex;
+  margin: 15px 0;
+}
+
+.option img {
+  height: 25px;
+  margin-right: 5px;
+  border-radius: 50%;
+}

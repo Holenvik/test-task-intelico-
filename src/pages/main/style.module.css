@@ -1,0 +1,17 @@
+.selectBlockWrapper {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #fff;
+  width: fit-content;
+  border: 1px solid #e0e0e0;
+}
+.selectBlockWrapper > * {
+  margin: 10px;
+}
+
+@media only screen and (max-width: 960px) {
+  .selectBlockWrapper {
+    flex-direction: column;
+  }
+}
